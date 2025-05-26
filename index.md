@@ -17,24 +17,35 @@ permalink: /
   <!-- Slides -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/assets/images/figure1.png" class="d-block w-100" alt="Research Figure 1">
+      <img src="/assets/images/mnist_treemap.png" class="d-block w-100" alt="Research Figure 1">
       <div class="carousel-caption">
         <p>Caption for figure 1 (optional)</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/assets/images/figure2.png" class="d-block w-100" alt="Research Figure 2">
+      <img src="/assets/images/mnist_scatter_categorical.png" class="d-block w-100" alt="Research Figure 2">
       <div class="carousel-caption">
         <p>Caption for figure 2 (optional)</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/assets/images/figure3.png" class="d-block w-100" alt="Research Figure 3">
+      <img src="/assets/images/gauss_grid_wide.png" class="d-block w-100" alt="Research Figure 3">
       <div class="carousel-caption">
         <p>Caption for figure 3 (optional)</p>
       </div>
     </div>
-    <!-- Add more .carousel-item blocks if you have more images -->
+    <div class="carousel-item">
+      <img src="/assets/images/sasaki.png" class="d-block w-100" alt="Research Figure 4">
+      <div class="carousel-caption">
+        <p>Caption for figure 3 (optional)</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/images/clean_vs_noisy.png" class="d-block w-100" alt="Research Figure 5">
+      <div class="carousel-caption">
+        <p>Caption for figure 3 (optional)</p>
+      </div>
+    </div>
   </div>
   <!-- Navigation controls (previous/next arrows) -->
   <button class="carousel-control-prev" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
@@ -46,3 +57,6 @@ permalink: /
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+**Welcome!** I am Alex Kokot, a PhD student at the University of Washington, Department of Statistics. 
+
