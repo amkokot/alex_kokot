@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} – My Research Site</title>
+  <!-- Bootstrap CSS for basic styles and carousel component -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <!-- Your custom styles to override or add to Bootstrap -->
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header class="container-fluid py-3">
+    <h1 class="h4 text-center">{{ site.title }}</h1>
+    <nav class="nav justify-content-center">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/research/">Research</a>
+      <a class="nav-link" href="/teaching/">Teaching</a>
+      <a class="nav-link" href="/preprints/">Preprints</a>
+      <a class="nav-link" href="/volunteer/">Volunteer Work</a>
+      <a class="nav-link" href="/contact/">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main page content injected here -->
+  <main class="container my-4">
+    {{ content }}
+  </main>
+
+  <!-- Optional footer -->
+  <footer class="text-center text-muted py-2">
+    © 2025 Your Name
+  </footer>
+
+  <!-- Bootstrap JS for interactive components (carousel) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
