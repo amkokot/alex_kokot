@@ -46,6 +46,7 @@ permalink: /
         <p>Caption for figure 3 (optional)</p>
       </div>
     </div>
+    <!-- add more figures -->
   </div>
   <!-- Navigation controls (previous/next arrows) -->
   <button class="carousel-control-prev" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
