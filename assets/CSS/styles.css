@@ -1,39 +1,58 @@
 /* assets/css/styles.css */
 
+/* ─── Two-column intro + carousel layout ───────────────────────────────── */
+.intro-carousel-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.intro-col {
+  flex: 0 0 30%;
+  max-width: 30%;
+  text-align: center;
+}
+.intro-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.carousel-col {
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+
 /* ─── Carousel Frame & Sizing ─────────────────────────────────────────── */
 #researchCarousel {
   width: 800px;               /* fixed frame width */
-  max-width: 100%;            /* shrink on small screens */
+  max-width: 100%;            /* shrink on mobile */
   height: 450px;              /* fixed frame height */
-  margin: 2rem auto;          /* center it */
-  position: relative;         /* for controls */
+  margin: 0 auto;
+  position: relative;
   border: 2px solid #ddd;
   border-radius: 8px;
-  overflow: hidden;           /* crop overflow */
+  overflow: hidden;
   background: #fff;
 }
-
-/* ─── Inner Container ─────────────────────────────────────────────────── */
 #researchCarousel .carousel-inner {
   width: 100%;
   height: 100%;
 }
 
-/* ─── Show/Hide Slides for Proper Animation ─────────────────────────────── */
+/* ─── Show/Hide Slides for Proper Animation ───────────────────────────── */
 #researchCarousel .carousel-item {
-  display: none;        /* hide every slide by default */
+  display: none;              /* hide non-active slides */
   width: 100%;
   height: 100%;
 }
-
 #researchCarousel .carousel-item.active,
 #researchCarousel .carousel-item-next,
 #researchCarousel .carousel-item-prev {
-  display: flex;        /* show the active + incoming/outgoing slides */
+  display: flex;              /* show active/incoming/outgoing */
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
 }
 
 /* ─── Image Letterboxing ───────────────────────────────────────────────── */
@@ -43,7 +62,6 @@
   object-fit: contain;
 }
 
-
 /* ─── Prev/Next Controls ───────────────────────────────────────────────── */
 #researchCarousel .carousel-control-prev,
 #researchCarousel .carousel-control-next {
@@ -52,16 +70,16 @@
   transform: translateY(-50%);
 }
 
-/* ─── Arrow Icons ─────────────────────────────────────────────────────── */
+/* ─── Arrow Icons ──────────────────────────────────────────────────────── */
 #researchCarousel .carousel-control-prev-icon,
 #researchCarousel .carousel-control-next-icon {
-  filter: invert(1);                         /* white → black */
-  background-color: rgba(255,255,255,0.7);   /* halo */
+  filter: invert(1);
+  background-color: rgba(255,255,255,0.7);
   border-radius: 50%;
   padding: 8px;
 }
 
-/* ─── Caption Below Carousel (optional) ───────────────────────────────── */
+/* ─── Caption Below Carousel ───────────────────────────────────────────── */
 #carouselCaption {
   margin: 0.5rem auto;
   text-align: center;

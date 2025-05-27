@@ -1,25 +1,16 @@
 # _config.yml
 
-
+# Site settings
 title: "Alex Kokot"
-
-
-description: "Machine learning researcher working on X, Y, Z."
-
-# The URL for your live site (used for sitemap or RSS if you add those)
-# For a user site, leave baseurl blank; for project sites, set baseurl: "/repo-name"
+description: "Machine learning researcher at University of Washington"
 url: "https://amkokot.github.io"
-baseurl: ""
+baseurl: "/alex_kokot"
 
-# Markdown processor (default is kramdown; you can leave this)
+# Markdown processor
 markdown: kramdown
 
-
-# Exclude files/folders from the build (optional)
+# Exclusions (optional)
 exclude:
   - README.md
   - node_modules
   - .github
-
-# If you ever want to use a Jekyll theme, you would add:
-# theme: minima
