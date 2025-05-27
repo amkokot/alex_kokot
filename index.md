@@ -14,7 +14,7 @@ permalink: /
   <div class="intro-text">
     <h2>Alex Kokot, University of Washington</h2>
     <p>
-      I’m a PhD student in the Department of Statistics at the University of Washington, advised by Marina Meila and Alex Luedtke. My intended defence date is June 2026! I graduated from Notre Dame in 2021, with Bachelor's degrees in Honors Mathematics and Philosophy, and a concentration in Computing. 
+      I’m a PhD student in the Department of Statistics at the University of Washington, advised by Marina Meila and Alex Luedtke. My intended defense date is June 2026! I graduated from Notre Dame in 2021, with Bachelor's degrees in Honors Mathematics and Philosophy, and a concentration in Computing. 
     </p>
     <p>
       My main research interest is in data summarization. A concrete example of this is selecting representative subsamples from a dataset. One framing of this is coreset selection and clustering, where samples are chosen to minimize a loss of interest. In recent work, we showed how this can be approached for a generic class of divergences, with key interest in the Sinkhorn divergence. Another lens is that of treatment assignment,
