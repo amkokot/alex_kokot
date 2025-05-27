@@ -80,26 +80,34 @@ header .nav {
 }
 
 
-/* ─── Simple Inline Intro ─────────────────────────────────────────────── */
+/* ─── Wrapping Intro with Floated Image ───────────────────────────────── */
 .intro-inline {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 2rem;    /* space before the carousel */
+  /* ensure floats are contained */
+  overflow: auto;
+  margin-bottom: 2rem;   /* space before carousel */
 }
 
+/* float the image and give text some breathing room */
 .intro-inline .intro-img {
-  width: 200px;            /* adjust size as you like */
+  float: left;
+  width: 200px;           /* adjust as you like */
   height: auto;
-  flex-shrink: 0;          /* don’t let it shrink on small screens */
+  margin: 0 1rem 1rem 0;   /* right + bottom margins */
+  border-radius: 50%;     /* if you want it circular */
+}
+
+/* make sure headings/text in the intro flow correctly */
+.intro-inline .intro-text {
+  /* no special display needed—text will wrap around floated img */
 }
 
 .intro-inline .intro-text h2 {
-  margin: 0;
-  font-size: 1.5rem;
+  margin-top: 0;          /* align the heading nicely */
 }
 
+/* spacing between paragraphs */
 .intro-inline .intro-text p {
-  margin: 0.25rem 0 0;
-  line-height: 1.4;
+  margin: 0 0 1rem;
+  line-height: 1.5;
 }
+
