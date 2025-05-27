@@ -4,7 +4,7 @@ title: "Teaching & Awards"
 permalink: /teaching/
 ---
 
-## Courses Taught
+## Teaching Experience
 <div class="section-list">
   <div class="item">
     <h3>STAT 390: Probability and Statistics (Fall 2021 - Spring 2022)</h3>
