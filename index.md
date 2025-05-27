@@ -4,22 +4,6 @@ title: "Home"
 permalink: /
 ---
 
-<!-- Simple inline intro -->
-<div class="intro-inline">
-  <img 
-    src="/alex_kokot/assets/images/alex_kokot.jpg" 
-    alt="Your Name" 
-    class="intro-img"
-  />
-  <div class="intro-text">
-    <h2>Your Name</h2>
-    <p>
-      I’m a PhD student in the Department of Statistics at the University of Washington.  
-      My research focuses on kernel methods, optimal transport, and ML for scientific data.
-    </p>
-  </div>
-</div>
-
 
 <!-- Carousel component (Bootstrap) -->
 <div id="researchCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
@@ -87,4 +71,20 @@ permalink: /
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
+
+<!-- Simple inline intro -->
+<div class="intro-inline">
+  <img 
+    src="/alex_kokot/assets/images/alex_kokot.jpg" 
+    alt="Your Name" 
+    class="intro-img"
+  />
+  <div class="intro-text">
+    <h2>Your Name</h2>
+    <p>
+      I’m a PhD student in the Department of Statistics at the University of Washington.  
+      My research focuses on kernel methods, optimal transport, and ML for scientific data.
+    </p>
+  </div>
 </div>

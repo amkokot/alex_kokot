@@ -2,9 +2,9 @@
 
 /* ─── Carousel Frame & Sizing ─────────────────────────────────────────── */
 #researchCarousel {
-  width: 800px;               /* fixed frame width */
+  width: 600px;               /* fixed frame width */
   max-width: 100%;            /* shrink on small screens */
-  height: 450px;              /* fixed frame height */
+  height: 350px;              /* fixed frame height */
   margin: 2rem auto;          /* center it */
   position: relative;         /* for controls */
   border: 2px solid #ddd;
