@@ -11,27 +11,29 @@
   background: #fff;
 }
 
-/* Fill the entire frame */
+/* images now letterbox to the exact same box every time */
 #researchCarousel .carousel-inner {
+  height: 100%;
+  width: 100%;
+  /* optional padding if you want a border-gap: */
+  /* padding: 10px; box-sizing: border-box; */
+}
+
+#researchCarousel .carousel-item.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
 }
 
-/* Only center & scale the active slide */
-#researchCarousel .carousel-item {
-  height: 100%;               /* keep the frame height */
-}
-#researchCarousel .carousel-item.active {
-  display: flex;              /* let Bootstrap hide the others */
-  align-items: center;
-  justify-content: center;
-}
-
-/* Image sizing */
-#researchCarousel .carousel-item img {
-  max-width: 90%;
-  max-height: 90%;
+/* THIS is the magic: force every image into the exact same box,
+   letterboxing it rather than resizing it arbitrarily. */
+#researchCarousel .carousel-item.active img {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
+
 
 /* ─── Prev/Next Controls ─────────────────────────────────────────────── */
 #researchCarousel .carousel-control-prev,
