@@ -13,7 +13,7 @@ permalink: /research/
   <div class="item">
     <h3>Kokot et al. (2025) · The Noisy Laplacian: a threshold phenomenon for non-linear dimension
 reduction</h3>
-    <p>A study of the effect of noise in common dimension reduction algorithms, and the geometry recoverable in these settings. <a href="{{ site.baseurl }}/assets/Documents/Noisy_Lap_v4.pdf" target="_blank" rel="noopener">Pre-print</a></p>
+    <p>A study of the effect of noise in common dimension reduction algorithms, and the geometry recoverable in these settings. To appear at ICML. <a href="{{ site.baseurl }}/assets/Documents/Noisy_Lap_v4.pdf" target="_blank" rel="noopener">Pre-print</a></p>
   </div>
 
   <div class="item">

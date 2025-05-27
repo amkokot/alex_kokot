@@ -4,7 +4,7 @@ title: "Teaching & Awards"
 permalink: /teaching/
 ---
 
-### Courses Taught
+## Courses Taught
 <div class="section-list">
   <div class="item">
     <h3>STAT 390: Probability and Statistics (Fall 2021 - Spring 2022)</h3>
@@ -12,7 +12,7 @@ permalink: /teaching/
   </div>
 </div>
 
-### Awards & Honors
+## Awards & Honors
 <div class="section-list">
   <div class="item">
     <h3>NDSEG Fellow (2023-2026)</h3>
