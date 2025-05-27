@@ -1,6 +1,6 @@
 /* 1. Constrain the carousel’s overall width and center it */
 #researchCarousel {
-  max-width: 800px;      /* whatever max you like (e.g. 600px, 700px…) */
+  max-width: 600px;      /* whatever max you like (e.g. 600px, 700px…) */
   margin: 0 auto;        /* horizontally center in its container */
 }
 
