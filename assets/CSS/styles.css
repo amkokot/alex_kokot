@@ -19,26 +19,30 @@
   height: 100%;
 }
 
-/* ─── Hide All Non-Active Slides ───────────────────────────────────────── */
+/* ─── Show/Hide Slides for Proper Animation ─────────────────────────────── */
 #researchCarousel .carousel-item {
-  display: none;              /* hide by default */
+  display: none;        /* hide every slide by default */
   width: 100%;
   height: 100%;
 }
 
-/* ─── Show Only the Active Slide ──────────────────────────────────────── */
-#researchCarousel .carousel-item.active {
-  display: flex;              /* flex to center content */
+#researchCarousel .carousel-item.active,
+#researchCarousel .carousel-item-next,
+#researchCarousel .carousel-item-prev {
+  display: flex;        /* show the active + incoming/outgoing slides */
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
-/* ─── Image Sizing (Letterbox) ────────────────────────────────────────── */
+/* ─── Image Letterboxing ───────────────────────────────────────────────── */
 #researchCarousel .carousel-item img {
   width: 100%;
   height: 100%;
-  object-fit: contain;        /* preserve aspect ratio */
+  object-fit: contain;
 }
+
 
 /* ─── Prev/Next Controls ───────────────────────────────────────────────── */
 #researchCarousel .carousel-control-prev,
