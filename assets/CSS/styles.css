@@ -11,6 +11,12 @@
   object-fit: contain;   /* prevents cropping if container has fixed height */
 }
 
+/* test rule */
+body {
+  outline: 5px solid red !important;
+}
+
+
 /* 3. Turn the default white arrow icons to black */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
