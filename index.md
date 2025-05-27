@@ -7,7 +7,7 @@ permalink: /
 <!-- Simple inline intro -->
 <div class="intro-inline">
   <img 
-    src="{{ site.baseurl }}/assets/images/alex_kokot.png" 
+    src="/alex_kokot/assets/images/alex_kokot.png" 
     alt="Your Name" 
     class="intro-img"
   />
