@@ -110,3 +110,39 @@ header .nav {
   line-height: 1.5;
 }
 
+/* ─── Contact Page Box ────────────────────────────────────────────────── */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.contact-box {
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-box h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contact-box p {
+  margin: 0.75rem 0;
+  line-height: 1.5;
+}
+
+.contact-box hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1rem 0;
+}
+
+
