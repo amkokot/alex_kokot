@@ -90,7 +90,7 @@ header .nav {
 /* float the image and give text some breathing room */
 .intro-inline .intro-img {
   float: left;
-  width: 250px;           /* adjust as you like */
+  width: 200px;           /* adjust as you like */
   height: auto;
   margin: 0 1rem 1rem 0;   /* right + bottom margins */
 }
