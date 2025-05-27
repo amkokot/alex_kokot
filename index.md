@@ -17,7 +17,7 @@ permalink: /
       I’m a PhD student in the Department of Statistics at the University of Washington, advised by Marina Meila and Alex Luedtke. My intended defence date is June 2026! I graduated from Notre Dame in 2021, with Bachelor's degrees in Honors Mathematics and Philosophy, and a concentration in Computing. 
     </p>
     <p>
-      My main research interest is in data summarization. A concrete example of this is selecting representative subsamples from a dataset. One framing of this is coreset selection and clustering, where samples are chosen to minimize a loss of interest. Another is treatment assignment,
+      My main research interest is in data summarization. A concrete example of this is selecting representative subsamples from a dataset. One framing of this is coreset selection and clustering, where samples are chosen to minimize a loss of interest. In recent work, we showed how this can be approached for a generic class of divergences, with key interest in the Sinkhorn divergence. Another is treatment assignment,
       where randomized designs are selected to minimize losses associated to certain potential outcome
       models and parameters of interest. I am lucky to have collaborated with a great team on this latter problem, with research soon to be released. One aim of my current work is to extend techniques from problems such as these to more general learning tasks, such as choosing good datasets to train ML models.  
     </p>
@@ -25,7 +25,7 @@ permalink: /
       As a dual question, I am also interested in the problem of "what summarizations are appropriate for certain datasets?" A primary example of this is dimension reduction. In recent work, we showed how spectral embeddings on manifolds with noise relate to their noiseless counterparts, and the extent of geometry recoverable in this setting. In current work we argue that the incorporation of supervised information allows for complete recovery, with techniques inspired by recent developments with the expected gradient outerproduct (EGOP).  
     </p>
     <p>
-      I have additionally considered problems regarding graph permanent estimation, comparing rankings, and many other settings, particularly those that relate to the above perspectives. I am always looking for collaborators, please reach out if interested!
+      I have additionally considered problems regarding graph permanent estimation, comparing rankings, and many other settings, particularly those that relate to the above perspectives. Much of my research involves tools from kernel methods, optimal transport, and functional analysis, but I have diverse interests beyond these. I am always looking for collaborators, please reach out if interested!
     </p>
   </div>
 </div>
