@@ -89,7 +89,7 @@ header .nav {
 }
 
 .intro-inline .intro-img {
-  width: 120px;            /* adjust size as you like */
+  width: 200px;            /* adjust size as you like */
   height: auto;
   flex-shrink: 0;          /* don’t let it shrink on small screens */
 }
