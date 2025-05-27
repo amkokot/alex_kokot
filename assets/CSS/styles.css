@@ -90,7 +90,7 @@ header .nav {
 /* float the image and give text some breathing room */
 .intro-inline .intro-img {
   float: left;
-  width: 200px;           /* adjust as you like */
+  width: 250px;           /* adjust as you like */
   height: auto;
   margin: 0 1rem 1rem 0;   /* right + bottom margins */
 }
@@ -145,4 +145,38 @@ header .nav {
   margin: 1rem 0;
 }
 
+
+/* ─── Section List (common for all three pages) ───────────────────────── */
+.section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.section-list .item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.section-list .item h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.section-list .item p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.section-list .item a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.section-list .item a:hover {
+  text-decoration: underline;
+}
 
