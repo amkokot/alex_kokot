@@ -1,14 +1,14 @@
 /* ─── Carousel Frame & Sizing ─────────────────────────────────────────── */
 #researchCarousel {
-  width: 800px;           /* frame width */
-  max-width: 100%;           /* frame width */
-  height: 450px;              /* frame height */
-  margin: 2rem auto;          /* center it with vertical space */
-  position: relative;         /* for positioning controls */
-  border: 2px solid #ddd;     /* light gray frame */
-  border-radius: 8px;         /* rounded corners */
-  overflow: hidden;           /* crop overflow */
-  background: #fff;           /* white backdrop */
+  width: 800px;
+  max-width: 100%;
+  height: 450px;
+  margin: 2rem auto;
+  position: relative;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
 }
 
 /* Fill the entire frame */
