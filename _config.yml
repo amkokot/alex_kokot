@@ -1,7 +1,7 @@
 # _config.yml
 
 # Site settings
-title: "Alex Kokot"
+# title: "Alex Kokot"
 description: "Machine learning researcher at University of Washington"
 url: "https://amkokot.github.io"
 baseurl: "/alex_kokot"
