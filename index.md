@@ -68,7 +68,7 @@ permalink: /
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/alex_kokot/assets/images/AGOP_descent.pdf"
+      <img src="/alex_kokot/assets/images/AGOP_descent-1.png"
            class="d-block w-100"
            alt="Research Figure 7">
       <div class="carousel-caption">
