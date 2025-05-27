@@ -7,7 +7,7 @@ permalink: /
 <!-- Simple inline intro -->
 <div class="intro-inline">
   <img 
-    src="/alex_kokot/assets/images/alex_kokot.png" 
+    src="/alex_kokot/assets/images/alex_kokot.jpg" 
     alt="Your Name" 
     class="intro-img"
   />
@@ -88,7 +88,3 @@ permalink: /
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-
-**Welcome!** I am Alex Kokot, a PhD student at the University of Washington, Department of Statistics. 
-
