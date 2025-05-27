@@ -14,8 +14,13 @@ permalink: /
   <div class="intro-text">
     <h2>Alex Kokot, University of Washington</h2>
     <p>
-      I’m a PhD student in the Department of Statistics at the University of Washington.  
-      My research focuses on kernel methods, optimal transport, and ML for scientific data.
+      I’m a PhD student in the Department of Statistics at the University of Washington, advised by Marina Meila and Alex Luedtke. My main research interest is in data summarization. A conrete example of this is selecting representative subsamples from a dataset. One framing of this is coreset selection and clustering, where samples are chosen to minimize a loss of interest. Another is treatment assignment,
+      where randomized designs are selected to minimize losses associated to certain potential outcome
+      models and parameters of interest. I am lucky to have collaborated with a great team on this latter problem, with research soon to be released. One aim of my current research is to extend techniques from problems such as these to more general learning tasks, such as choosing good datasets to train ML models.
+
+      As a dual question, I am also interested in the problem of "what summarizations are appropriate for certain datasets?" A primary example of this is dimension reduction. In recent work, we showed how spectral embeddings on manifolds with noise relate to their noiseless counterparts, and the extent of geometry recoverable in this setting. In current work we argue that the incorporation of supervised information allows for complete recovery, with techniques inspired by recent developments with the expected gradient outerproduct (EGOP).
+
+      I have additionally considered problems regarding graph permanent estimation, comparing rankings, and many other settings which have caught my interest, particularly as they relate to the above perspectives. I am always looking for collaborators, please reach out if interested!
     </p>
   </div>
 </div>
@@ -24,17 +29,17 @@ permalink: /
 <div id="researchCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
   <!-- Slides -->
   <div class="carousel-inner">
-    <div class="carousel-item active" data-caption="Treemap of Sinkhorn coreset from MNIST data https://arxiv.org/abs/2504.20194">
+    <div class="carousel-item active" data-caption="Treemap of a Sinkhorn coreset from MNIST data https://arxiv.org/abs/2504.20194">
       <img src="{{ site.baseurl }}/assets/images/mnist_treemap.png"
            class="d-block w-100"
            alt="Research Figure 1">
     </div>
-    <div class="carousel-item" data-caption="Geometric visualization of Sinkhorn coreset from MNIST data https://arxiv.org/abs/2504.20194">
+    <div class="carousel-item" data-caption="Geometric visualization of a Sinkhorn coreset from MNIST data https://arxiv.org/abs/2504.20194">
       <img src="{{ site.baseurl }}/assets/images/mnist_scatter_categorical.png"
            class="d-block w-100"
            alt="Research Figure 2">
     </div>
-    <div class="carousel-item" data-caption="Sinkhorn coreset from a Gaussian mixture https://arxiv.org/abs/2504.20194">
+    <div class="carousel-item" data-caption="Sinkhorn coresets from a Gaussian mixture https://arxiv.org/abs/2504.20194">
       <img src="{{ site.baseurl }}/assets/images/gauss_grid_wide.png"
            class="d-block w-100"
            alt="Research Figure 3">
