@@ -27,9 +27,6 @@ permalink: /teaching/
     <h3>Notre Dame: Senior G.E. Prize for Honors Mathematics Majors (2021)</h3>
   </div>
   <div class="item">
-    <h3>Phi Beta Kappa Early Inductee (2021)</h3>
-  </div>
-  <div class="item">
     <h3>Goldwater Scholar (2020-2021)</h3>
   </div>
   <div class="item">
