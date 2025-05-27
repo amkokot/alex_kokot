@@ -16,7 +16,7 @@ permalink: /
     <p>
       I’m a PhD student in the Department of Statistics at the University of Washington, advised by Marina Meila and Alex Luedtke. My main research interest is in data summarization. A conrete example of this is selecting representative subsamples from a dataset. One framing of this is coreset selection and clustering, where samples are chosen to minimize a loss of interest. Another is treatment assignment,
       where randomized designs are selected to minimize losses associated to certain potential outcome
-      models and parameters of interest. I am lucky to have collaborated with a great team on this latter problem, with research soon to be released. One aim of my current research is to extend techniques from problems such as these to more general learning tasks, such as choosing good datasets to train ML models.  
+      models and parameters of interest. I am lucky to have collaborated with a great team on this latter problem, with research soon to be released. One aim of my current work is to extend techniques from problems such as these to more general learning tasks, such as choosing good datasets to train ML models.  
     </p>
     <p>
       As a dual question, I am also interested in the problem of "what summarizations are appropriate for certain datasets?" A primary example of this is dimension reduction. In recent work, we showed how spectral embeddings on manifolds with noise relate to their noiseless counterparts, and the extent of geometry recoverable in this setting. In current work we argue that the incorporation of supervised information allows for complete recovery, with techniques inspired by recent developments with the expected gradient outerproduct (EGOP).  
