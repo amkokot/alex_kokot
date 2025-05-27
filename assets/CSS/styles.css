@@ -81,7 +81,6 @@
 .intro-inline .intro-img {
   width: 120px;            /* adjust size as you like */
   height: auto;
-  border-radius: 50%;      /* circular photo */
   flex-shrink: 0;          /* don’t let it shrink on small screens */
 }
 
