@@ -3,51 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ page.title }} – {{ site.title }}</title>
-
-  <!-- Bootstrap CSS -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeo3lW76zvf1SAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous"
-  />
-
-  <!-- Your custom stylesheet -->
-  <link
-    rel="stylesheet"
-    href="{{ site.baseurl }}/assets/css/styles.css"
-  />
+  <title>{{ page.title }} – My Research Site</title>
+  <!-- Bootstrap CSS for basic styles and carousel component -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <!-- Your custom styles to override or add to Bootstrap -->
+  <link rel="stylesheet" href="/alex_kokot/assets/CSS/styles.css" />
 </head>
 <body>
-  <!-- Header & Navigation -->
+  <!-- Header and Navigation -->
   <header class="container-fluid py-3">
     <h1 class="h4 text-center">{{ site.title }}</h1>
     <nav class="nav justify-content-center">
-      <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
-      <a class="nav-link" href="{{ site.baseurl }}/research/">Research</a>
-      <a class="nav-link" href="{{ site.baseurl }}/teaching/">Teaching</a>
-      <a class="nav-link" href="{{ site.baseurl }}/preprints/">Preprints</a>
-      <a class="nav-link" href="{{ site.baseurl }}/volunteer/">Volunteer Work</a>
-      <a class="nav-link" href="{{ site.baseurl }}/contact/">Contact</a>
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/research/">Research</a>
+      <a class="nav-link" href="/teaching/">Teaching</a>
+      <a class="nav-link" href="/preprints/">Preprints</a>
+      <a class="nav-link" href="/volunteer/">Volunteer Work</a>
+      <a class="nav-link" href="/contact/">Contact</a>
     </nav>
   </header>
 
-  <!-- Page content -->
+  <!-- Main page content injected here -->
   <main class="container my-4">
     {{ content }}
   </main>
 
-  <!-- Footer -->
+  <!-- Optional footer -->
   <footer class="text-center text-muted py-2">
-    © 2025 Alex Kokot
+    © 2025 Your Name
   </footer>
 
-  <!-- Bootstrap JS bundle (includes carousel) -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-qQ2rLKFjB0rZH2J4dDRrCb7UcI6aEte2+I4E4R+yh9TwNytl2bxJkXNFp3w9hY+N"
-    crossorigin="anonymous"
-  ></script>
+  <!-- Bootstrap JS for interactive components (carousel) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
