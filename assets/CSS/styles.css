@@ -1,34 +1,21 @@
-/* 1. Constrain the carousel’s overall width and center it */
+/* ─── Carousel Frame & Sizing ─────────────────────────────────────────── */
 #researchCarousel {
-  max-width: 600px;      /* whatever max you like (e.g. 600px, 700px…) */
-  margin: 0 auto;        /* horizontally center in its container */
+  max-width: 800px;           /* frame width */
+  height: 450px;              /* frame height */
+  margin: 2rem auto;          /* center it with vertical space */
+  position: relative;         /* for positioning controls */
+  border: 2px solid #ddd;     /* light gray frame */
+  border-radius: 8px;         /* rounded corners */
+  overflow: hidden;           /* crop overflow */
+  background: #fff;           /* white backdrop */
 }
 
-/* 2. Make each slide’s image fill that container but preserve aspect ratio */
-#researchCarousel .carousel-item img {
-  width: 100%;           /* fill the carousel’s width */
-  height: auto;          /* scale height to match, preserving ratio */
-  object-fit: contain;   /* prevents cropping if container has fixed height */
-}
-
-/* 1. Frame the carousel with a border and fixed height */
-#researchCarousel {
-  max-width: 800px;        /* or whatever width you like */
-  height: 450px;           /* fixed height for all slides */
-  margin: 2rem auto;       /* center with some vertical breathing room */
-  position: relative;      /* for positioning inner elements */
-  border: 2px solid #ddd;  /* light gray frame */
-  border-radius: 8px;      /* rounded corners */
-  overflow: hidden;        /* crop any overflow */
-  background: #fff;        /* white behind images */
-}
-
-/* 2. Ensure the inner .carousel-inner fills the frame */
+/* Fill the entire frame */
 #researchCarousel .carousel-inner {
   height: 100%;
 }
 
-/* 3. Center each image within the frame */
+/* Center & scale each image */
 #researchCarousel .carousel-item {
   display: flex;
   align-items: center;
@@ -36,31 +23,24 @@
   height: 100%;
 }
 #researchCarousel .carousel-item img {
-  max-height: 100%;       /* no taller than the frame */
-  max-width: 100%;        /* no wider than the frame */
-  object-fit: contain;    /* maintain aspect ratio */
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
-/* 4. Keep Prev/Next controls inside the frame */
+/* ─── Prev/Next Controls ─────────────────────────────────────────────── */
 #researchCarousel .carousel-control-prev,
 #researchCarousel .carousel-control-next {
-  width: 8%;              /* narrower touch area */
+  width: 8%;                  /* narrow click area */
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* 5. Style the arrow icons for visibility */
+/* Turn the arrow icons black, with a white halo */
 #researchCarousel .carousel-control-prev-icon,
 #researchCarousel .carousel-control-next-icon {
-  filter: invert(1);        /* white → black */
-  background-color: rgba(255,255,255,0.7);
+  filter: invert(1);                        /* white → black */
+  background-color: rgba(255,255,255,0.7);  /* semi-opaque white circle */
   border-radius: 50%;
   padding: 8px;
 }
-
-
-/* 3. Turn the default white arrow icons to black 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: invert(1);     invert white→black 
-}/*
