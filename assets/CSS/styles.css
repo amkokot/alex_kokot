@@ -1,88 +1,79 @@
-/* assets/css/styles.css */
+/* assets/CSS/styles.css */
 
-/* ─── Two-column intro + carousel layout ───────────────────────────────── */
-.intro-carousel-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-.intro-col {
-  flex: 0 0 30%;
-  max-width: 30%;
-  text-align: center;
-}
-.intro-photo {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-}
-.carousel-col {
-  flex: 0 0 70%;
-  max-width: 70%;
-}
-
-/* ─── Carousel Frame & Sizing ─────────────────────────────────────────── */
+/* ─── 1. Carousel Frame ───────────────────────────────────────────────── */
 #researchCarousel {
   width: 800px;               /* fixed frame width */
-  max-width: 100%;            /* shrink on mobile */
+  max-width: 100%;            /* allow shrink on small screens */
   height: 450px;              /* fixed frame height */
-  margin: 0 auto;
-  position: relative;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  background: #fff;
-}
-#researchCarousel .carousel-inner {
-  width: 100%;
-  height: 100%;
+  margin: 2rem auto;          /* center it vertically and horizontally */
+  position: relative;         /* for controls positioning */
+  border: 2px solid #ddd;     /* light gray border */
+  border-radius: 8px;         /* rounded corners */
+  overflow: hidden;           /* hide overflow */
+  background: #fff;           /* white backdrop */
 }
 
-/* ─── Show/Hide Slides for Proper Animation ───────────────────────────── */
+/* ─── 2. Hide/Show Slides for Proper Animation ────────────────────────── */
+/* By default, hide every slide */
 #researchCarousel .carousel-item {
-  display: none;              /* hide non-active slides */
+  display: none;
   width: 100%;
   height: 100%;
+  /* smooth slide transitions (horizontal) */
+  transition: transform 0.6s ease;
 }
+
+/* Show the active slide AND the incoming/outgoing ones so Bootstrap can animate them */
 #researchCarousel .carousel-item.active,
 #researchCarousel .carousel-item-next,
 #researchCarousel .carousel-item-prev {
-  display: flex;              /* show active/incoming/outgoing */
+  display: flex;              /* flex so we can center the image */
   align-items: center;
   justify-content: center;
 }
 
-/* ─── Image Letterboxing ───────────────────────────────────────────────── */
+/* ─── 2a. Optional Fade Support ───────────────────────────────────────── */
+/* If you remove 'carousel-fade' from your HTML, you can ignore this block.
+   If you keep 'carousel-fade', this will cross-fade slides instead of sliding. */
+#researchCarousel.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+#researchCarousel.carousel-fade .carousel-item.active,
+#researchCarousel.carousel-fade .carousel-item-next.carousel-item-start,
+#researchCarousel.carousel-fade .carousel-item-prev.carousel-item-end {
+  opacity: 1;
+}
+
+/* ─── 3. Letterbox Images ─────────────────────────────────────────────── */
 #researchCarousel .carousel-item img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: contain;        /* preserve aspect ratio with letterboxing */
+  margin: auto;               /* center if image smaller in one dimension */
 }
 
-/* ─── Prev/Next Controls ───────────────────────────────────────────────── */
+/* ─── 4. Prev/Next Controls ───────────────────────────────────────────── */
 #researchCarousel .carousel-control-prev,
 #researchCarousel .carousel-control-next {
-  width: 8%;
+  width: 8%;                  /* narrow hit area */
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* ─── Arrow Icons ──────────────────────────────────────────────────────── */
+/* ─── 5. Arrow Icons ─────────────────────────────────────────────────── */
 #researchCarousel .carousel-control-prev-icon,
 #researchCarousel .carousel-control-next-icon {
-  filter: invert(1);
-  background-color: rgba(255,255,255,0.7);
+  filter: invert(1);                          /* turn default white → black */
+  background-color: rgba(255,255,255,0.7);    /* white halo */
   border-radius: 50%;
   padding: 8px;
 }
 
-/* ─── Caption Below Carousel ───────────────────────────────────────────── */
+/* ─── 6. Caption Below Carousel ──────────────────────────────────────── */
 #carouselCaption {
   margin: 0.5rem auto;
   text-align: center;
-  color: #000;
+  color: #000;             /* black text */
   font-size: 1rem;
 }
