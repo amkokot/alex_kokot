@@ -7,24 +7,36 @@ permalink: /teaching/
 ### Courses Taught
 <div class="section-list">
   <div class="item">
-    <h3>STAT 500: Intro to Statistical Learning (Spring 2025)</h3>
-    <p>Instructor leading lectures on regression, classification, and resampling methods.</p>
-  </div>
-
-  <div class="item">
-    <h3>STAT 401: Data Visualization (Fall 2024)</h3>
-    <p>Designed assignments on interactive plots and dashboard creation.</p>
+    <h3>STAT 390: Probability and Statistics (Fall 2021 - Spring 2022)</h3>
+    <p>TA for UW's introduction to probability and statistics for engineers.</p>
   </div>
 </div>
 
 ### Awards & Honors
 <div class="section-list">
   <div class="item">
-    <h3>UW Graduate Fellowship (2023)</h3>
-    <p>Full tuition and stipend award for outstanding research potential.</p>
+    <h3>NDSEG Fellow (2023-2026)</h3>
   </div>
   <div class="item">
-    <h3>Best Poster Award · UW Research Symposium (2022)</h3>
-    <p>Recognized for poster on coreset selection methods.</p>
+    <h3>Phi Beta Kappa Early Inductee (2021)</h3>
+  </div>
+  <div class="item">
+    <h3>Notre Dame: George Kolettis Award in Mathematics (2021)</h3>
+  </div>
+  <div class="item">
+    <h3>Notre Dame: Senior G.E. Prize for Honors Mathematics Majors (2021)</h3>
+  </div>
+  <div class="item">
+    <h3>Phi Beta Kappa Early Inductee (2021)</h3>
+  </div>
+  <div class="item">
+    <h3>Goldwater Scholar (2020-2021)</h3>
+  </div>
+  <div class="item">
+    <h3>Scientia: Charles Edison Fellowship (2020)</h3>
+  </div>
+  <div class="item">
+    <h3>Notre Dame Sorin Scholar (2018-2021)</h3>
   </div>
 </div>
+
