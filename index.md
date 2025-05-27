@@ -24,37 +24,37 @@ permalink: /
 <div id="researchCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
   <!-- Slides -->
   <div class="carousel-inner">
-    <div class="carousel-item active" data-caption="Treemap visualization on MNIST embeddings">
+    <div class="carousel-item active" data-caption="Treemap visualization of a Sinkhorn coreset of MNIST data from https://arxiv.org/abs/2504.20194">
       <img src="{{ site.baseurl }}/assets/images/mnist_treemap.png"
            class="d-block w-100"
            alt="Research Figure 1">
     </div>
-    <div class="carousel-item" data-caption="Categorical scatter of MNIST">
+    <div class="carousel-item" data-caption="Geometric visualization of a Sinkhorn coreset of MNIST data from https://arxiv.org/abs/2504.20194">
       <img src="{{ site.baseurl }}/assets/images/mnist_scatter_categorical.png"
            class="d-block w-100"
            alt="Research Figure 2">
     </div>
-    <div class="carousel-item" data-caption="Wide Gauss grid demonstration">
+    <div class="carousel-item" data-caption="Sinkhorn coreset from a Gaussian mixture from https://arxiv.org/abs/2504.20194">
       <img src="{{ site.baseurl }}/assets/images/gauss_grid_wide.png"
            class="d-block w-100"
            alt="Research Figure 3">
     </div>
-    <div class="carousel-item" data-caption="Sasaki divergence comparison">
+    <div class="carousel-item" data-caption="A comparison of the induced and Sasaki metrics, to appear in ICML">
       <img src="{{ site.baseurl }}/assets/images/sasaki.png"
            class="d-block w-100"
            alt="Research Figure 4">
     </div>
-    <div class="carousel-item" data-caption="Clean vs noisy data example">
+    <div class="carousel-item" data-caption="A comparison of Laplacian eigenfunctions between a clean and noisy manifold, to appear in ICML">
       <img src="{{ site.baseurl }}/assets/images/clean_vs_noisy.png"
            class="d-block w-100"
            alt="Research Figure 5">
     </div>
-    <div class="carousel-item" data-caption="Mandrill localizations visualization">
+    <div class="carousel-item" data-caption="Neighborhoods produced by AGOP Descent, coming research">
       <img src="{{ site.baseurl }}/assets/images/Mandrill_Localizations_2.png"
            class="d-block w-100"
            alt="Research Figure 6">
     </div>
-    <div class="carousel-item" data-caption="AGOP descent demonstration">
+    <div class="carousel-item" data-caption="AGOP Descent performed on a toy dataset, coming research">
       <img src="{{ site.baseurl }}/assets/images/AGOP_descent-1.png"
            class="d-block w-100"
            alt="Research Figure 7">
