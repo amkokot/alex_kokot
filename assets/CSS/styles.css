@@ -5,12 +5,12 @@
   width: 800px;               /* fixed frame width */
   max-width: 100%;            /* shrink on small screens */
   height: 450px;              /* fixed frame height */
-  margin: 2rem auto;          /* center with vertical spacing */
-  position: relative;         /* for positioning controls */
-  border: 2px solid #ddd;     /* light gray border */
-  border-radius: 8px;         /* rounded corners */
-  overflow: hidden;           /* hide overflow */
-  background: #fff;           /* white backdrop */
+  margin: 2rem auto;          /* center it */
+  position: relative;         /* for controls */
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;           /* crop overflow */
+  background: #fff;
 }
 
 /* ─── Inner Container ─────────────────────────────────────────────────── */
@@ -19,39 +19,45 @@
   height: 100%;
 }
 
-/* ─── Slides ───────────────────────────────────────────────────────────── */
+/* ─── Hide All Non-Active Slides ───────────────────────────────────────── */
 #researchCarousel .carousel-item {
-  /* Bootstrap will apply display:none to non-actives */
-  display: block;
+  display: none;              /* hide by default */
   width: 100%;
   height: 100%;
 }
 
-/* ─── Images ───────────────────────────────────────────────────────────── */
+/* ─── Show Only the Active Slide ──────────────────────────────────────── */
+#researchCarousel .carousel-item.active {
+  display: flex;              /* flex to center content */
+  align-items: center;
+  justify-content: center;
+}
+
+/* ─── Image Sizing (Letterbox) ────────────────────────────────────────── */
 #researchCarousel .carousel-item img {
-  width: 100%;                /* fill container width */
-  height: 100%;               /* fill container height */
-  object-fit: contain;        /* preserve aspect ratio with letterboxing */
+  width: 100%;
+  height: 100%;
+  object-fit: contain;        /* preserve aspect ratio */
 }
 
 /* ─── Prev/Next Controls ───────────────────────────────────────────────── */
 #researchCarousel .carousel-control-prev,
 #researchCarousel .carousel-control-next {
-  width: 8%;                  /* narrower click area */
+  width: 8%;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* ─── Arrow Icons ──────────────────────────────────────────────────────── */
+/* ─── Arrow Icons ─────────────────────────────────────────────────────── */
 #researchCarousel .carousel-control-prev-icon,
 #researchCarousel .carousel-control-next-icon {
   filter: invert(1);                         /* white → black */
-  background-color: rgba(255,255,255,0.7);   /* semi-opaque white circle */
+  background-color: rgba(255,255,255,0.7);   /* halo */
   border-radius: 50%;
   padding: 8px;
 }
 
-/* ─── Caption Below Carousel ──────────────────────────────────────────── */
+/* ─── Caption Below Carousel (optional) ───────────────────────────────── */
 #carouselCaption {
   margin: 0.5rem auto;
   text-align: center;
