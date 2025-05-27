@@ -6,14 +6,32 @@ permalink: /volunteer/
 
 <div class="section-list">
   <div class="item">
-    <h3>Mentor · UW Data Science Club (2024–present)</h3>
-    <p>Provide weekly guidance on data visualization workshops and student projects.</p>
+    <h3>UW Statistics Fun Committee (2020–present)</h3>
   </div>
 
   <div class="item">
-    <h3>Organizer · Seattle AI for Social Good Meetup (2023)</h3>
-    <p>Coordinated monthly talks connecting AI researchers with local nonprofits.</p>
+    <h3>UW pre-application review service (PARS) (2021-22)</h3>
+    <p>Provided support to underrepresented graduate school applicants.</p>
   </div>
 
-  <!-- Add more volunteer roles here -->
+  <div class="item">
+    <h3>UW Math Circle Volunteer (2021-22)</h3>
+  </div>
+
+  <div class="item">
+    <h3>South Bend Unity Gardens Volunteer (2021)</h3>
+  </div>
+
+  <div class="item">
+    <h3>Notre Dame Scientia: Math section editor (2019-2021)</h3>
+  </div>
+
+  <div class="item">
+    <h3>Notre Dame Math Club President (2020-2021)</h3>
+  </div>
+
+  <div class="item">
+    <h3>Notre Dame Math Circle Volunteer (2020-2021)</h3>
+  </div>
+
 </div>
