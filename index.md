@@ -18,7 +18,7 @@ permalink: /
     </p>
     <p>
       My main research interest is in data summarization. A concrete example of this is selecting representative subsamples from a dataset. One framing of this is coreset selection and clustering, where samples are chosen to minimize a loss of interest. In recent work, we showed how this can be approached for a generic class of divergences, with key interest in the Sinkhorn divergence. Another lens is that of treatment assignment,
-      where randomized designs are selected to minimize losses associated to certain potential outcome
+      where randomized experimental designs are selected to minimize losses associated to certain potential outcome
       models and parameters of interest. I am lucky to have collaborated with a great team on this latter problem, with research soon to be released. One aim of my current work is to extend techniques from problems such as these to more general learning tasks, such as choosing good datasets to train ML models.  
     </p>
     <p>
