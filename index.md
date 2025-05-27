@@ -59,6 +59,22 @@ permalink: /
         <p>Caption for Figure 5 (optional)</p>
       </div>
     </div>
+    <div class="carousel-item">
+      <img src="/alex_kokot/assets/images/Mandrill_Localizations_2.png"
+           class="d-block w-100"
+           alt="Research Figure 6">
+      <div class="carousel-caption">
+        <p>Caption for Figure 5 (optional)</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/alex_kokot/assets/images/AGOP_descent.pdf"
+           class="d-block w-100"
+           alt="Research Figure 7">
+      <div class="carousel-caption">
+        <p>Caption for Figure 5 (optional)</p>
+      </div>
+    </div>
   </div>
 
   <!-- Navigation controls (previous/next arrows) -->
@@ -82,7 +98,7 @@ permalink: /
     class="intro-img"
   />
   <div class="intro-text">
-    <h2>Alex Kokot, PhD student at the University of Washington, Department of Statistics</h2>
+    <h2>Alex Kokot, University of Washington</h2>
     <p>
       I’m a PhD student in the Department of Statistics at the University of Washington.  
       My research focuses on kernel methods, optimal transport, and ML for scientific data.
