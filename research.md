@@ -4,6 +4,7 @@ title: "Research"
 permalink: /research/
 ---
 
+## Current Work
 <div class="section-list">
   <div class="item">
     <h3>Kokot & Luedtke (2025) · Coreset selection for the Sinkhorn divergenceand generic smooth divergences </h3>
@@ -25,3 +26,46 @@ reduction</h3>
   <!-- Add more papers here in the same format -->
 </div>
 
+
+## Scientific Engagement and Mathematical Reports
+<p>These include works which I assisted as a laboratory aid during my undergraduate studies, as well as research from REUs. I am forever indebted to the terrific opportunites that I have been able to partake in, and the incredible mentorship of so many esteemed researchers.
+</p>
+<div class="section-list">
+  <div class="item">
+    <h3>Traustason (2020) · Reactivity, Formation, and Solubility of Polyoxometalates Probed by Calorimetry </h3>
+    <p><a href="https://pubs.acs.org/doi/10.1021/jacs.0c10133" target="_blank" rel="noopener">PDF</a></p>
+  </div>
+
+  <div class="item">
+    <h3>Zhang et al. (2020) · Crystal Chemistry and Structural Complexity of Uranium(IV) Sulfates: Synthesis of U3H2(SO4)7(H2O)5·3H2O and U3(UO2)0.2(SO4)6(OH)0.4·2.3H2O with Framework Structures by the Photochemical Reduction of Uranyl</h3>
+    <p><a href="https://pubs.acs.org/doi/10.1021/acs.inorgchem.0c00385" target="_blank" rel="noopener">Pre-print</a></p>
+  </div>
+
+  <div class="item">
+    <h3>Kokot & Klein (2019) · Metrics and Uniqueness Criteria on the Signatures of Closed Curves
+</h3>
+    <p><a href="https://arxiv.org/abs/2009.13004" target="_blank" rel="noopener">Pre-print</a></p>
+  </div>
+
+  <div class="item">
+    <h3>Kulick et al. (2019) · Enabling curved hemispherical arrays with Quilt Packaging interconnect technology
+</h3>
+    <p><a href="https://www.researchgate.net/publication/333073792_Enabling_curved_hemispherical_arrays_with_Quilt_Packaging_interconnect_technology" target="_blank" rel="noopener">Pre-print</a></p>
+  </div>
+
+  <div class="item">
+    <h3>Kokot & Johnson (2019) · Characteristics of Eigenvalues Realized by Path-Connected Sets of Matrices
+</h3>
+    <p><a href="https://arxiv.org/abs/1911.07353" target="_blank" rel="noopener">Pre-print</a></p>
+  </div>
+
+  <div class="item">
+    <h3>Qiu et al. (2017) · Sulfate-Centered Sodium-Icosahedron-Templated Uranyl Peroxide Phosphate Cages with Uranyl Bridged by μ–η1:η2 Peroxide
+</h3>
+    <p><a href="https://pubs.acs.org/doi/10.1021/acs.inorgchem.6b02429" target="_blank" rel="noopener">Pre-print</a></p>
+  </div>
+
+  
+
+  <!-- Add more papers here in the same format -->
+</div>
