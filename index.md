@@ -8,13 +8,14 @@ permalink: /
 <!-- Carousel component (Bootstrap) -->
 <div id="researchCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
   <!-- Indicators (dots) -->
+  <!--
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#researchCarousel" data-bs-slide-to="0" class="active"></button>
     <button type="button" data-bs-target="#researchCarousel" data-bs-slide-to="1"></button>
     <button type="button" data-bs-target="#researchCarousel" data-bs-slide-to="2"></button>
     <button type="button" data-bs-target="#researchCarousel" data-bs-slide-to="3"></button>
     <button type="button" data-bs-target="#researchCarousel" data-bs-slide-to="4"></button>
-  </div>
+  </div> -->
 
   <!-- Slides -->
   <div class="carousel-inner">
@@ -81,7 +82,7 @@ permalink: /
     class="intro-img"
   />
   <div class="intro-text">
-    <h2>Your Name</h2>
+    <h2>Alex Kokot, PhD student at the University of Washington, Department of Statistics</h2>
     <p>
       I’m a PhD student in the Department of Statistics at the University of Washington.  
       My research focuses on kernel methods, optimal transport, and ML for scientific data.
