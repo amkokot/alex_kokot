@@ -24,17 +24,17 @@ permalink: /
 <div id="researchCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
   <!-- Slides -->
   <div class="carousel-inner">
-    <div class="carousel-item active" data-caption="Treemap visualization of a Sinkhorn coreset of MNIST data from https://arxiv.org/abs/2504.20194">
+    <div class="carousel-item active" data-caption="Treemap of Sinkhorn coreset from MNIST data https://arxiv.org/abs/2504.20194">
       <img src="{{ site.baseurl }}/assets/images/mnist_treemap.png"
            class="d-block w-100"
            alt="Research Figure 1">
     </div>
-    <div class="carousel-item" data-caption="Geometric visualization of a Sinkhorn coreset of MNIST data from https://arxiv.org/abs/2504.20194">
+    <div class="carousel-item" data-caption="Geometric visualization of Sinkhorn coreset from MNIST data https://arxiv.org/abs/2504.20194">
       <img src="{{ site.baseurl }}/assets/images/mnist_scatter_categorical.png"
            class="d-block w-100"
            alt="Research Figure 2">
     </div>
-    <div class="carousel-item" data-caption="Sinkhorn coreset from a Gaussian mixture from https://arxiv.org/abs/2504.20194">
+    <div class="carousel-item" data-caption="Sinkhorn coreset from a Gaussian mixture https://arxiv.org/abs/2504.20194">
       <img src="{{ site.baseurl }}/assets/images/gauss_grid_wide.png"
            class="d-block w-100"
            alt="Research Figure 3">
