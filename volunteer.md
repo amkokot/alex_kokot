@@ -4,6 +4,8 @@ title: "Volunteer Work"
 permalink: /volunteer/
 ---
 
+
+## Volunteer Work
 <div class="section-list">
   <div class="item">
     <h3>UW Statistics Fun Committee (2020–present)</h3>
