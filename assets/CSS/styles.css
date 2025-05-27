@@ -1,5 +1,15 @@
 /* assets/css/styles.css */
 
+/* Draw lines above and below the top nav */
+header .nav {
+  border-top:    1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-top:    0.5rem;   /* give the links some breathing room */
+  padding-bottom: 0.5rem;
+  margin: 1rem 0;           /* space the whole bar from header/title */
+}
+
+
 /* ─── Carousel Frame & Sizing ─────────────────────────────────────────── */
 #researchCarousel {
   width: 600px;               /* fixed frame width */
