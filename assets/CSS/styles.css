@@ -1,6 +1,7 @@
 /* ─── Carousel Frame & Sizing ─────────────────────────────────────────── */
 #researchCarousel {
-  max-width: 800px;           /* frame width */
+  width: 800px;           /* frame width */
+  max-width: 100%;           /* frame width */
   height: 450px;              /* frame height */
   margin: 2rem auto;          /* center it with vertical space */
   position: relative;         /* for positioning controls */
