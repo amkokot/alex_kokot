@@ -44,7 +44,7 @@ reduction</h3>
 <div class="section-list">
   <div class="item">
     <h3> Meila, Kokot, and Murad (2025) · Noise level as a dimension -- spectral embeddings vs. generative models</h3>
-    <p>AMS Special Session on Geometric and Combinatorial Methods in Deep Learning Theory, II <a href="https://meetings.ams.org/math/jmm2025/meetingapp.cgi/Paper/42316" target="_blank" rel="noopener">Abstract</a></p>
+    <p>JMM, AMS Special Session on Geometric and Combinatorial Methods in Deep Learning Theory, II <a href="https://meetings.ams.org/math/jmm2025/meetingapp.cgi/Paper/42316" target="_blank" rel="noopener">Abstract</a></p>
   </div>
   <!-- Add more papers here in the same format -->
 </div>
