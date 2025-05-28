@@ -12,7 +12,7 @@ permalink: /research/
   </div>
 
   <div class="item">
-    <h3>Kokot et al. (2025) · The Noisy Laplacian: a threshold phenomenon for non-linear dimension
+    <h3>Kokot, Murad, and Meila (2025) · The Noisy Laplacian: a threshold phenomenon for non-linear dimension
 reduction</h3>
     <p>A study of the effect of noise in common dimension reduction algorithms, and the geometry recoverable in these settings. To appear at ICML. <a href="{{ site.baseurl }}/assets/Documents/Noisy_Lap_v4.pdf" target="_blank" rel="noopener">Preprint</a></p>
   </div>
@@ -25,6 +25,16 @@ reduction</h3>
 
   <!-- Add more papers here in the same format -->
 </div>
+
+## Talks
+<div class="section-list">
+  <div class="item">
+    <h3> Meila, Kokot, and Murad (2025) · Noise level as a dimension -- spectral embeddings vs. generative models</h3>
+    <p>AMS Special Session on Geometric and Combinatorial Methods in Deep Learning Theory, II <a href="https://meetings.ams.org/math/jmm2025/meetingapp.cgi/Paper/42316" target="_blank" rel="noopener">Abstract</a></p>
+  </div>
+  <!-- Add more papers here in the same format -->
+</div>
+
 
 
 ## Scientific Engagement and Mathematical Reports
