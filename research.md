@@ -7,7 +7,7 @@ permalink: /research/
 ## Current Work
 <div class="section-list">
   <div class="item">
-    <h3>Kokot & Luedtke (2025) · Coreset selection for the Sinkhorn divergenceand generic smooth divergences </h3>
+    <h3>Kokot & Luedtke (2025) · Coreset selection for the Sinkhorn divergence and generic smooth divergences </h3>
     <p>A framework for selecting representative coresets with respect to arbitrary losses, with special application to the Sinkhorn divergence. <a href="https://arxiv.org/pdf/2504.20194" target="_blank" rel="noopener">PDF</a></p>
   <details class="bibtex-toggle">
     <summary>BibTeX</summary>
