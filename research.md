@@ -42,7 +42,7 @@ reduction</h3>
 </p>
 <div class="section-list">
   <div class="item">
-    <h3>Traustason (2020) · Reactivity, Formation, and Solubility of Polyoxometalates Probed by Calorimetry </h3>
+    <h3>Traustason et al. (2020) · Reactivity, Formation, and Solubility of Polyoxometalates Probed by Calorimetry </h3>
     <p><a href="https://pubs.acs.org/doi/10.1021/jacs.0c10133" target="_blank" rel="noopener">PDF</a></p>
   </div>
 
