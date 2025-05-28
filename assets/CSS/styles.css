@@ -180,3 +180,22 @@ header .nav {
   text-decoration: underline;
 }
 
+/* assets/css/styles.css */
+
+/* small indent for the details block */
+.bibtex-toggle {
+  margin-top: 0.5rem;
+}
+/* make the summary link-like */
+.bibtex-toggle summary {
+  cursor: pointer;
+  color: #0066cc;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.bibtex-toggle pre {
+  background: #f3f3f3;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+}
