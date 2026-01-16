@@ -135,7 +135,7 @@ permalink: /research-test/
           <h5 class="card-title text-dark">Geometrically Structured Data</h5>
         </a>
         
-        <h6 class="card-subtitle mb-2 text-muted">Kokot, Murad, & Meilã (2025) · <span class="text-success">ICML 2025</span></h6>
+        <h6 class="card-subtitle mb-2 text-muted">Kokot, Murad, & Meila (2025) · <span class="text-success">ICML 2025</span></h6>
         
         <p class="card-text small text-secondary">
           Rigorous analysis of spectral embeddings on noisy manifolds. Using the Sasaki metric, we show these embeddings detect structure beyond strict dimensionality.
@@ -231,7 +231,7 @@ permalink: /research-test/
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body pt-2">
-        <p class="text-muted fst-italic mb-4">Kokot, Murad, & Meilã (2025)</p>
+        <p class="text-muted fst-italic mb-4">Kokot, Murad, & Meila (2025)</p>
 
         <p>We study <strong>Laplacian spectral embeddings</strong> for manifold data injected with high-dimensional noise. The traditional folklore is that low-dimensional spectral embeddings are insensitive to such contamination. To verify this rigorously, I developed a metric perturbation argument, comparing the induced tube geometry to the "flattened" <strong>Sasaki metric</strong>.</p>
         
@@ -244,4 +244,75 @@ permalink: /research-test/
       </div>
     </div>
   </div>
+</div>
+
+<div class="mt-5 pt-4 border-top">
+  <h2 class="h4 mb-4">Full Publication List</h2>
+
+  <h3 class="h5 mt-4 mb-3 text-secondary border-bottom pb-2">In Preparation</h3>
+  <ul class="list-unstyled">
+    <li class="mb-3">
+      <strong>Alex Kokot</strong>, Alex Luedtke, Marina Meilã (2026).
+      <em>Diffusion Maps are Entropic Self-Transport: Limits and Applications as ε→0</em>.
+      To be submitted to <em>COLT</em>.
+    </li>
+  </ul>
+
+  <h3 class="h5 mt-5 mb-3 text-secondary border-bottom pb-2">Submitted</h3>
+  <ul class="list-unstyled">
+    <li class="mb-3">
+      Vydhourie Thiyageswaran, <strong>Alex Kokot</strong>, et al. (2026).
+      <em>Optimal Design under Interference, Homophily, and Robustness Trade-offs</em>.
+      Submitted to <em>JASA</em>.
+    </li>
+    <li class="mb-3">
+       <strong>Alex Kokot</strong>, et al. (2026).
+       <a href="https://arxiv.org/abs/2601.07061" target="_blank"><em>Local EGOP for Continuous Index Learning</em></a>.
+       arXiv:2601.07061. Submitted to <em>AISTATS</em>.
+    </li>
+    <li class="mb-3">
+      <strong>Alex Kokot</strong>, Alex Luedtke (2025).
+      <a href="https://arxiv.org/abs/2504.20194" target="_blank"><em>Coreset selection for the Sinkhorn divergence and generic smooth divergences</em></a>.
+      arXiv:2504.20194. Submitted to <em>JMLR</em> (under review).
+    </li>
+  </ul>
+
+  <h3 class="h5 mt-5 mb-3 text-secondary border-bottom pb-2">Peer-Reviewed</h3>
+  <ul class="list-unstyled">
+    <li class="mb-3">
+      <strong>Alex Kokot</strong>, Octavian-Vlad Murad, Marina Meilã (2025).
+      <a href="https://openreview.net/forum?id=GK6q2SFNHm" target="_blank"><em>The Noisy Laplacian: A threshold phenomenon for non-linear dimension reduction</em></a>.
+      In <em>Proc. 42nd Int’l Conf. on Machine Learning (ICML 2025)</em>.
+    </li>
+    <li class="mb-3">
+      Jose Agudelo, Brooke Dippold, Ian Klein, <strong>Alex Kokot</strong>, Eric Geiger, Irina Kogan (2024).
+      <a href="https://msp.org/involve/2024/17-1/p03.xhtml" target="_blank"><em>Euclidean and affine curve reconstruction</em></a>.
+      <em>Involve, a Journal of Mathematics</em>.
+    </li>
+    <li class="mb-3">
+      Lei Zhang, Yu Wang, Mengyu Xu, <strong>Alex M. Kokot</strong>, Jie Qiu, Peter C. Burns (2024).
+      <a href="https://doi.org/10.1039/D4CE00121D" target="_blank"><em>Hydrothermal synthesis and structure of organically templated layered neptunyl(VI) phosphate (NpO<sub>2</sub>)<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>(Terpy)</em></a>.
+      <em>CrystEngComm</em>.
+    </li>
+    <li class="mb-3">
+      Hrafn Traustason, Nicola L. Bell, Kiana Caranto, David C. Auld, David T. Lockey, <strong>Alex M. Kokot</strong>, Jennifer E. S. Szymanowski, Leroy Cronin, Peter C. Burns (2020).
+      <a href="https://doi.org/10.1021/jacs.0c10133" target="_blank"><em>Reactivity, Formation, and Solubility of Polyoxometalates Probed by Calorimetry</em></a>.
+      <em>Journal of the American Chemical Society</em>.
+    </li>
+    <li class="mb-3">
+      Lei Zhang, Sergey M. Aksenov, <strong>Alex Kokot</strong>, Samuel N. Perry, Travis A. Olds, Peter C. Burns (2020).
+      <a href="https://doi.org/10.1021/acs.inorgchem.0c00385" target="_blank"><em>Crystal Chemistry and Structural Complexity of Uranium(IV) Sulfates</em></a>.
+      <em>Inorganic Chemistry</em>.
+    </li>
+    <li class="mb-3">
+      Kulick, J., Nichols, B., Knight, T., Lu, T., Ortega, C., Siders, S., <strong>Kokot, A.</strong>, Bernstein, G. (2019).
+      <a href="https://doi.org/10.1117/12.2518652" target="_blank"><em>Enabling curved hemispherical arrays with Quilt Packaging interconnect technology</em></a>.
+      In <em>Proc. SPIE 10980</em>.
+    </li>
+    <li class="mb-3">
+      Jie Qiu, Tyler L. Spano, Mateusz Dembowski, <strong>Alex Kokot</strong>, Jakub E. S. Szymanowski, Peter C. Burns (2017).
+      <a href="https://doi.org/10.1021/acs.inorgchem.6b02429" target="_blank"><em>Sulfate-Centered Sodium-Icosahedron-Templated Uranyl Peroxide Phosphate Cages</em></a>.
+      <em>Inorganic Chemistry</em>.
+    </li>
+  </ul>
 </div>
