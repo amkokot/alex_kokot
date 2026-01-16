@@ -18,7 +18,6 @@ permalink: /teaching/
           </div>
           <h6 class="mb-2 text-primary">STAT 390: Probability and Statistics for Engineers</h6>
           <p class="mb-0 text-muted small">
-            Led weekly quiz sections, graded assignments, and provided weekly office hours for student support.
           </p>
         </div>
       </div>
