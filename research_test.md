@@ -34,7 +34,7 @@ permalink: /research-test/
     border: 1px solid #e9ecef;
   }
 
-  /* 4. Footer Links Layering */
+  /* 4. Footer Links Layering (Fixes clickable buttons) */
   .card-footer-actions {
     position: relative; 
     z-index: 2; 
@@ -163,7 +163,7 @@ permalink: /research-test/
         
         <p>It is commonly speculated that machine learning algorithms more effectively leverage <strong>structured data</strong> than their classical counterparts. The <em>supervised noisy manifold hypothesis</em> is designed to capture this, with covariates concentrated about a low-dimensional manifold, and labels invariant to orthogonal deviations.</p>
         
-        <p>This is an instance of our newly introduced setting of <em>continuous-index learning</em>. I study this problem via <strong>kernel smoothing</strong> in an adaptive Mahalanobis metric. The objective is to induce anisotropy, reducing estimator variance by elongating along the normal space and pooling additional low bias data points.
+        <p>This is an instance of our newly introduced setting of <em>continuous-index learning</em>. I study this problem via <strong>kernel smoothing</strong> in an adaptive Mahalanobis metric. The objective is to induce anisotropy, reducing estimator variance by elongating along the normal space and pooling additional low bias data points.</p>
         
         <div class="p-3 bg-light rounded my-3 border-start border-4 border-primary">
           <strong>Key Insight:</strong> My approach is motivated by metrization by the <strong>expected gradient outerproduct (EGOP)</strong>. Experimentally, we demonstrate that <strong>deep neural networks</strong> achieve a similar metrization, while two-layer neural networks cannot, even in overparameterized regimes.
