@@ -8,7 +8,7 @@ permalink: /research-test/
   /* 1. Animation & Cursor */
   .hover-card {
     transition: transform 0.25s ease-out, box-shadow 0.25s ease-out;
-    cursor: pointer; /* Ensures the hand icon appears over the IMAGE too */
+    cursor: pointer; 
   }
 
   .hover-card:hover {
@@ -35,7 +35,6 @@ permalink: /research-test/
   }
 
   /* 4. Footer Links Layering */
-  /* This ensures PDF/BibTeX buttons sit ON TOP of the card click layer */
   .card-footer-actions {
     position: relative; 
     z-index: 2; 
@@ -43,11 +42,21 @@ permalink: /research-test/
   }
 </style>
 
-## Research Overview
-<p class="mb-5">
-  In my research, I incorporate <strong>geometric principles</strong> into the analysis of functionals arising in statistics and machine learning.
-  I focus on making ML algorithms computationally efficient, leveraging geometric structure in data, and re-imagining classical methods in modern settings.
-</p>
+<div class="row mb-5">
+  <div class="col-lg-8">
+    <h2 class="mb-3">Research Overview</h2>
+    <p class="text-secondary mb-3">
+      My research incorporates geometric principles into the analysis of functionals arising in statistics and machine learning. For a comprehensive synthesis of my work and future research vision, please see my formal statement below.
+    </p>
+    <a href="{{ site.baseurl }}/assets/Documents/research_1_16.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-pdf me-2" viewBox="0 0 16 16">
+        <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+        <path d="M4.603 14.087a.81.81 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.68 7.68 0 0 1 1.482-.645 19.697 19.697 0 0 0 1.062-2.227 7.269 7.269 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.188-.012.396-.047.614-.084.51-.27 1.134-.52 1.794a10.954 10.954 0 0 0 .98 1.686 5.753 5.753 0 0 1 1.334.05c.364.066.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.856.856 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.712 5.712 0 0 1-.911-.95 11.651 11.651 0 0 0-1.997.406 11.307 11.307 0 0 1-1.02 1.51c-.292.35-.609.656-.927.787a.793.793 0 0 1-.58.029zm1.379-1.901c-.166.076-.32.156-.459.238-.328.194-.541.383-.647.545-.094.145-.096.25-.04.361.01.022.02.036.026.044a.266.266 0 0 0 .035-.012c.137-.056.355-.235.635-.572a8.18 8.18 0 0 0 .45-.606zm1.64-1.33a12.71 12.71 0 0 1 1.01-.193 11.744 11.744 0 0 1-.51-.858 20.801 20.801 0 0 1-.5 1.05zm2.446.45c.15.163.296.3.435.41.24.19.407.253.498.256a.107.107 0 0 0 .07-.015.307.307 0 0 0 .094-.125.436.436 0 0 0 .059-.2.095.095 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a3.876 3.876 0 0 0-.612-.053zM8.06 11.1c.15-.259.305-.528.466-.816a12.76 12.76 0 0 1-.922-.184.25.25 0 0 1-.006.004c-.004.01-.01.024-.015.04a2.95 2.95 0 0 0-.07.697zm1.144-8.818c-.024-.088-.046-.165-.062-.21a.502.502 0 0 0-.086-.115.088.088 0 0 0-.065-.035.088.088 0 0 0-.073.04.428.428 0 0 0-.045.16c-.012.067-.013.14-.002.213a.625.625 0 0 0 .034.167c.033.1.08.23.146.38.082.186.195.39.324.606.077-.282.164-.593.238-.894l-.509-.312z"/>
+      </svg>
+      Download Research Statement
+    </a>
+  </div>
+</div>
 
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
 
@@ -60,13 +69,14 @@ permalink: /research-test/
           <h5 class="card-title text-dark">Local EGOP Learning</h5>
         </a>
         
-        <h6 class="card-subtitle mb-2 text-muted">Kokot et al. (2025)</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Kokot et al. (2025) · <span class="text-primary">Preprint</span></h6>
+        
         <p class="card-text small text-secondary">
           A geometric model for structured data via the supervised noisy manifold hypothesis. We show that deep networks achieve an anisotropic metrization that simple models cannot.
         </p>
         
         <div class="mt-auto card-footer-actions pt-3 border-top">
-           <a href="{{ site.baseurl }}/assets/Documents/EGOP_flow_v2.pdf" target="_blank" class="btn btn-sm btn-outline-primary py-0" style="font-size: 0.8rem;">Preprint</a>
+           <a href="{{ site.baseurl }}/assets/Documents/EGOP_flow_v2.pdf" target="_blank" class="btn btn-sm btn-outline-primary py-0" style="font-size: 0.8rem;">PDF</a>
         </div>
       </div>
     </div>
@@ -81,7 +91,8 @@ permalink: /research-test/
           <h5 class="card-title text-dark">Coreset Selection</h5>
         </a>
         
-        <h6 class="card-subtitle mb-2 text-muted">Kokot & Luedtke (2025)</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Kokot & Luedtke (2025) · <span class="text-primary">arXiv</span></h6>
+        
         <p class="card-text small text-secondary">
           A framework for selecting coresets with respect to arbitrary losses, including the Sinkhorn divergence. Also covers targeted sampling for fine-tuning and batch selection.
         </p>
@@ -102,13 +113,14 @@ permalink: /research-test/
           <h5 class="card-title text-dark">Entropic Optimal Transport</h5>
         </a>
         
-        <h6 class="card-subtitle mb-2 text-muted">Theory & Limits</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Kokot · <span class="text-warning text-dark">In Preparation</span></h6>
+        
         <p class="card-text small text-secondary">
           Refining the analysis of the Sinkhorn divergence via Hadamard differentiability and deriving limits for self-EOT, establishing connections to spectral clustering.
         </p>
         
         <div class="mt-auto card-footer-actions pt-3 border-top">
-           <span class="badge bg-light text-dark border">In Preparation</span>
+           <span class="badge bg-light text-dark border">Coming Soon</span>
         </div>
       </div>
     </div>
@@ -123,13 +135,14 @@ permalink: /research-test/
           <h5 class="card-title text-dark">Geometrically Structured Data</h5>
         </a>
         
-        <h6 class="card-subtitle mb-2 text-muted">Kokot, Murad, & Meila (2025)</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Kokot, Murad, & Meilã (2025) · <span class="text-success">To appear at ICML</span></h6>
+        
         <p class="card-text small text-secondary">
           Rigorous analysis of spectral embeddings on noisy manifolds. Using the Sasaki metric, we show these embeddings detect structure beyond strict dimensionality.
         </p>
         
         <div class="mt-auto card-footer-actions pt-3 border-top">
-           <a href="{{ site.baseurl }}/assets/Documents/Noisy_Lap_v4.pdf" target="_blank" class="btn btn-sm btn-outline-primary py-0" style="font-size: 0.8rem;">Preprint</a>
+           <a href="{{ site.baseurl }}/assets/Documents/Noisy_Lap_v4.pdf" target="_blank" class="btn btn-sm btn-outline-primary py-0" style="font-size: 0.8rem;">PDF</a>
         </div>
       </div>
     </div>
@@ -218,7 +231,7 @@ permalink: /research-test/
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body pt-2">
-        <p class="text-muted fst-italic mb-4">Kokot, Murad, & Meila (2025)</p>
+        <p class="text-muted fst-italic mb-4">Kokot, Murad, & Meilã (2025)</p>
 
         <p>I analyzed <strong>Laplacian spectral embeddings</strong> for manifold data injected with high-dimensional noise. The traditional folklore is that low-dimensional spectral embeddings are insensitive to such contamination. To verify this rigorously, I developed a metric perturbation argument, comparing the induced tube geometry to the "flattened" <strong>Sasaki metric</strong>.</p>
         
