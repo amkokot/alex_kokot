@@ -101,15 +101,11 @@ permalink: /
     <div class="carousel-inner rounded">
       
       <div class="carousel-item active" data-caption="<strong>Coreset Selection:</strong> Treemap of a Sinkhorn coreset from MNIST data.">
-        <img src="{{ site.baseurl }}/assets/images/mnist_treemap.png" class="d-block w-100" alt="MNIST Treemap">
+        <img src="{{ site.baseurl }}/assets/images/gauss_grid_wide.png" class="d-block w-100" alt="MNIST Treemap">
       </div>
 
       <div class="carousel-item" data-caption="<strong>Entropic OT:</strong> Geometric visualization of a Sinkhorn coreset.">
         <img src="{{ site.baseurl }}/assets/images/mnist_scatter_categorical.png" class="d-block w-100" alt="MNIST Scatter">
-      </div>
-
-      <div class="carousel-item" data-caption="<strong>Distributional Compression:</strong> Sinkhorn coresets from a Gaussian mixture.">
-        <img src="{{ site.baseurl }}/assets/images/gauss_grid_wide.png" class="d-block w-100" alt="Gaussian Grid">
       </div>
 
       <div class="carousel-item" data-caption="<strong>Spectral Embeddings:</strong> A comparison of the induced and Sasaki metrics. (To appear in ICML)">
