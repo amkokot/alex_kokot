@@ -20,7 +20,7 @@ permalink: /
       <div class="mt-4 text-muted small">
         <p class="mb-1">
           <strong>Advisors:</strong><br> 
-          <a href="https://stat.uw.edu/about-us/people/marina-meila" class="text-decoration-none text-secondary">Marina Meilã</a> & <a href="https://stat.uw.edu/about-us/people/alex-luedtke" class="text-decoration-none text-secondary">Alex Luedtke</a>
+          <a href="https://stat.uw.edu/about-us/people/marina-meila" class="text-decoration-none text-secondary">Marina Meila</a> & <a href="https://stat.uw.edu/about-us/people/alex-luedtke" class="text-decoration-none text-secondary">Alex Luedtke</a>
         </p>
         <p class="mb-3">
           <strong>Defense:</strong> June 2026
@@ -120,7 +120,7 @@ permalink: /
         <img src="{{ site.baseurl }}/assets/images/clean_vs_noisy.png" class="d-block w-100" alt="Clean vs Noisy">
       </div>
 
-      <div class="carousel-item" data-caption="<strong>Local EGOP:</strong> Neighborhoods produced by AGOP Descent.">
+      <div class="carousel-item" data-caption="<strong>Local EGOP:</strong> Local EGOP Learning applied to image data.">
         <img src="{{ site.baseurl }}/assets/images/Mandrill_Localizations_2.png" class="d-block w-100" alt="Mandrill Localizations">
       </div>
 

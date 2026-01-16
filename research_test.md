@@ -1,7 +1,7 @@
 ---
 layout: main
 title: "Research"
-permalink: /research-test/
+permalink: /research/
 ---
 
 <style>
@@ -191,7 +191,7 @@ permalink: /research-test/
         <p>I developed the <strong>Coresets of Order 2 (CO2)</strong> algorithm, which reduces the problem to minimizing a quadratic form under affine and sparsity constraints. By verifying <strong>Hadamard differentiability</strong> of the entropic potentials in the Gaussian RKHS, we showed that only poly-log(<em>n</em>) samples are required to approximate the population distribution up to negligible error.</p>
 
         <h6 class="mt-4">Targeted Sampling & Fine-Tuning</h6>
-        <p>Beyond theoretical bounds, this framework allows for the selection of coresets to optimize arbitrary functionals, including <strong>empirical risk minimization</strong>. In ongoing research, these methods are applied to select data to accelerate model fitting, with applications ranging from identifying corpuses for <strong>fine-tuning</strong> to <strong>batch selection</strong> in SGD.</p>
+        <p>Beyond theoretical bounds, this framework allows for the selection of coresets to optimize arbitrary functionals, and this includes key settings such as <strong>empirical risk minimization</strong>. In ongoing research, these methods are applied to select data to accelerate model fitting, with applications ranging from identifying corpuses for <strong>fine-tuning</strong> to <strong>batch selection</strong> in SGD.</p>
       </div>
       <div class="modal-footer border-0">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -252,7 +252,7 @@ permalink: /research-test/
   <h3 class="h5 mt-4 mb-3 text-secondary border-bottom pb-2">In Preparation</h3>
   <ul class="list-unstyled">
     <li class="mb-3">
-      <strong>Alex Kokot</strong>, Alex Luedtke, Marina Meilã (2026).
+      <strong>Alex Kokot</strong>, Alex Luedtke, Marina Meila (2026).
       <em>Diffusion Maps are Entropic Self-Transport: Limits and Applications as ε→0</em>.
       To be submitted to <em>COLT</em>.
     </li>
@@ -280,7 +280,7 @@ permalink: /research-test/
   <h3 class="h5 mt-5 mb-3 text-secondary border-bottom pb-2">Peer-Reviewed</h3>
   <ul class="list-unstyled">
     <li class="mb-3">
-      <strong>Alex Kokot</strong>, Octavian-Vlad Murad, Marina Meilã (2025).
+      <strong>Alex Kokot</strong>, Octavian-Vlad Murad, Marina Meila (2025).
       <a href="https://openreview.net/forum?id=GK6q2SFNHm" target="_blank"><em>The Noisy Laplacian: A threshold phenomenon for non-linear dimension reduction</em></a>.
       In <em>Proc. 42nd Int’l Conf. on Machine Learning (ICML 2025)</em>.
     </li>
