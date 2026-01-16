@@ -46,7 +46,7 @@ permalink: /research-test/
   <div class="col-lg-8">
     <h2 class="mb-3">Research Overview</h2>
     <p class="text-secondary mb-3">
-      My research incorporates geometric principles into the analysis of functionals arising in statistics and machine learning. For a comprehensive synthesis of my work and future research vision, please see my formal statement below.
+      For a comprehensive synthesis of my work and future research vision, please see my formal statement below.
     </p>
     <a href="{{ site.baseurl }}/assets/Documents/research_1_16.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-pdf me-2" viewBox="0 0 16 16">
@@ -69,10 +69,10 @@ permalink: /research-test/
           <h5 class="card-title text-dark">Local EGOP Learning</h5>
         </a>
         
-        <h6 class="card-subtitle mb-2 text-muted">Kokot et al. (2025) · <span class="text-primary">Preprint</span></h6>
+        <h6 class="card-subtitle mb-2 text-muted">Kokot et al. (2025) · <span class="text-primary">Submitted to AISTATS</span></h6>
         
         <p class="card-text small text-secondary">
-          A geometric model for structured data via the supervised noisy manifold hypothesis. We show that deep networks achieve an anisotropic metrization that simple models cannot.
+          A geometric model for structured data via the supervised noisy manifold hypothesis. We develop a method to capture the adaptivity deep networks achieve when the target function exhibits local low-dimensionaltity.
         </p>
         
         <div class="mt-auto card-footer-actions pt-3 border-top">
@@ -91,10 +91,10 @@ permalink: /research-test/
           <h5 class="card-title text-dark">Coreset Selection</h5>
         </a>
         
-        <h6 class="card-subtitle mb-2 text-muted">Kokot & Luedtke (2025) · <span class="text-primary">arXiv</span></h6>
+        <h6 class="card-subtitle mb-2 text-muted">Kokot & Luedtke (2025) · <span class="text-primary">Submitted to JMLR</span></h6>
         
         <p class="card-text small text-secondary">
-          A framework for selecting coresets with respect to arbitrary losses, including the Sinkhorn divergence. Also covers targeted sampling for fine-tuning and batch selection.
+          A framework for selecting coresets with respect to arbitrary losses, including the Sinkhorn divergence.
         </p>
         
         <div class="mt-auto card-footer-actions pt-3 border-top">
@@ -113,7 +113,7 @@ permalink: /research-test/
           <h5 class="card-title text-dark">Entropic Optimal Transport</h5>
         </a>
         
-        <h6 class="card-subtitle mb-2 text-muted">Kokot · <span class="text-warning text-dark">In Preparation</span></h6>
+        <h6 class="card-subtitle mb-2 text-muted">Kokot · <span class="text-warning text-dark">To be Submitted to COLT</span></h6>
         
         <p class="card-text small text-secondary">
           Refining the analysis of the Sinkhorn divergence via Hadamard differentiability and deriving limits for self-EOT, establishing connections to spectral clustering.
@@ -135,7 +135,7 @@ permalink: /research-test/
           <h5 class="card-title text-dark">Geometrically Structured Data</h5>
         </a>
         
-        <h6 class="card-subtitle mb-2 text-muted">Kokot, Murad, & Meilã (2025) · <span class="text-success">To appear at ICML</span></h6>
+        <h6 class="card-subtitle mb-2 text-muted">Kokot, Murad, & Meilã (2025) · <span class="text-success">ICML 2025</span></h6>
         
         <p class="card-text small text-secondary">
           Rigorous analysis of spectral embeddings on noisy manifolds. Using the Sasaki metric, we show these embeddings detect structure beyond strict dimensionality.
@@ -161,9 +161,9 @@ permalink: /research-test/
       <div class="modal-body pt-2">
         <p class="text-muted fst-italic mb-4">Kokot et al. (2025)</p>
         
-        <p>It is commonly speculated that machine learning algorithms more effectively leverage <strong>structured data</strong> than their classical counterparts. I developed a geometric model for such structure via the <em>supervised noisy manifold hypothesis</em>, where covariates are concentrated about a low-dimensional manifold, and labels do not depend on orthogonal deviations.</p>
+        <p>It is commonly speculated that machine learning algorithms more effectively leverage <strong>structured data</strong> than their classical counterparts. The <em>supervised noisy manifold hypothesis</em> is designed to capture this, with covariates concentrated about a low-dimensional manifold, and labels invariant to orthogonal deviations.</p>
         
-        <p>This is an instance of our newly introduced setting of <em>continuous-index learning</em>. I study this problem via <strong>kernel smoothing</strong> in an adaptive Mahalanobis metric. The objective is to induce anisotropy, reducing estimator variance by elongating along the normal space and pooling additional low bias data points.</p>
+        <p>This is an instance of our newly introduced setting of <em>continuous-index learning</em>. I study this problem via <strong>kernel smoothing</strong> in an adaptive Mahalanobis metric. The objective is to induce anisotropy, reducing estimator variance by elongating along the normal space and pooling additional low bias data points.
         
         <div class="p-3 bg-light rounded my-3 border-start border-4 border-primary">
           <strong>Key Insight:</strong> My approach is motivated by metrization by the <strong>expected gradient outerproduct (EGOP)</strong>. Experimentally, we demonstrate that <strong>deep neural networks</strong> achieve a similar metrization, while two-layer neural networks cannot, even in overparameterized regimes.
@@ -186,7 +186,7 @@ permalink: /research-test/
       <div class="modal-body pt-2">
         <p class="text-muted fst-italic mb-4">Kokot & Luedtke (2025)</p>
         
-        <p>In this work, I took on the task of <strong>distributional compression</strong>. We seek to construct a 'coreset' of <em>m</em> observations such that, relative to a specified divergence <em>D</em>, the coreset's deviation from the empirical is of the same order as the empirical's deviation from the truth. This presents a substantial generalization of typical clustering and coreset selection settings, as the loss <em>D</em> is arbitrary.</p>
+        <p>We seek to construct a 'coreset' of <em>m</em> observations such that, relative to a specified divergence <em>D</em>, the coreset's deviation from the empirical is of the same order as the empirical's deviation from the truth. This presents a substantial generalization of typical clustering and coreset selection settings, as the loss <em>D</em> is arbitrary.</p>
         
         <p>I developed the <strong>Coresets of Order 2 (CO2)</strong> algorithm, which reduces the problem to minimizing a quadratic form under affine and sparsity constraints. By verifying <strong>Hadamard differentiability</strong> of the entropic potentials in the Gaussian RKHS, we showed that only poly-log(<em>n</em>) samples are required to approximate the population distribution up to negligible error.</p>
 
@@ -233,7 +233,7 @@ permalink: /research-test/
       <div class="modal-body pt-2">
         <p class="text-muted fst-italic mb-4">Kokot, Murad, & Meilã (2025)</p>
 
-        <p>I analyzed <strong>Laplacian spectral embeddings</strong> for manifold data injected with high-dimensional noise. The traditional folklore is that low-dimensional spectral embeddings are insensitive to such contamination. To verify this rigorously, I developed a metric perturbation argument, comparing the induced tube geometry to the "flattened" <strong>Sasaki metric</strong>.</p>
+        <p>We study <strong>Laplacian spectral embeddings</strong> for manifold data injected with high-dimensional noise. The traditional folklore is that low-dimensional spectral embeddings are insensitive to such contamination. To verify this rigorously, I developed a metric perturbation argument, comparing the induced tube geometry to the "flattened" <strong>Sasaki metric</strong>.</p>
         
         <p>The Sasaki metric presents a natural splitting of manifold and noise information, decomposing the Neumann Laplacian into an intrinsic component and a high frequency perturbation. By leveraging <strong>perturbation theory for unbounded operators</strong>, I showed that in the continuum, low frequency eigenfunctions are nearly invariant to deviations away from the manifold.</p>
         
