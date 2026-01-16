@@ -6,12 +6,12 @@ permalink: /index-test/
 
 <div class="container py-4">
   
-  <div class="row align-items-center g-5 mb-5">
+  <div class="row align-items-center g-5">
     
     <div class="col-lg-4 text-center">
       
       <img 
-        src="{{ site.baseurl }}/assets/images/alex_kokot.jpg" 
+        src="{{ site.baseurl }}/assets/images/IMG_3725.jpg" 
         alt="Alex Kokot" 
         class="img-fluid rounded shadow-sm"
         style="max-width: 280px; object-fit: cover;"
@@ -96,11 +96,8 @@ permalink: /index-test/
     </div>
   </div>
 
-  <hr class="my-5">
 
-  <h3 class="h5 text-muted mb-4">Visualizing Research</h3>
-
-  <div id="researchCarousel" class="carousel slide mb-4 shadow-sm border rounded" data-bs-ride="carousel">
+  <div id="researchCarousel" class="carousel slide mt-5 mb-4 shadow-sm border rounded" data-bs-ride="carousel">
     <div class="carousel-inner rounded">
       
       <div class="carousel-item active" data-caption="<strong>Coreset Selection:</strong> Treemap of a Sinkhorn coreset from MNIST data.">
