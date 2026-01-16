@@ -5,10 +5,10 @@ permalink: /research-test/
 ---
 
 <style>
-  /* 1. The Animation: Lift up and shadow on hover */
+  /* 1. Animation & Cursor */
   .hover-card {
     transition: transform 0.25s ease-out, box-shadow 0.25s ease-out;
-    cursor: pointer; 
+    cursor: pointer; /* Ensures the hand icon appears over the IMAGE too */
   }
 
   .hover-card:hover {
@@ -35,6 +35,7 @@ permalink: /research-test/
   }
 
   /* 4. Footer Links Layering */
+  /* This ensures PDF/BibTeX buttons sit ON TOP of the card click layer */
   .card-footer-actions {
     position: relative; 
     z-index: 2; 
@@ -51,16 +52,19 @@ permalink: /research-test/
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
 
   <div class="col">
-    <div class="card h-100 shadow-sm border-0 hover-card">
+    <div class="card h-100 shadow-sm border-0 hover-card position-relative">
       <img src="{{ site.baseurl }}/assets/images/Mandrill_Localizations_2.png" class="card-img-top research-img" alt="Local EGOP">
-      <div class="card-body d-flex flex-column position-relative">
+      <div class="card-body d-flex flex-column">
+        
         <a href="#" data-bs-toggle="modal" data-bs-target="#modalEGOP" class="stretched-link text-decoration-none">
           <h5 class="card-title text-dark">Local EGOP Learning</h5>
         </a>
+        
         <h6 class="card-subtitle mb-2 text-muted">Kokot et al. (2025)</h6>
         <p class="card-text small text-secondary">
           A geometric model for structured data via the supervised noisy manifold hypothesis. We show that deep networks achieve an anisotropic metrization that simple models cannot.
         </p>
+        
         <div class="mt-auto card-footer-actions pt-3 border-top">
            <a href="{{ site.baseurl }}/assets/Documents/EGOP_flow_v2.pdf" target="_blank" class="btn btn-sm btn-outline-primary py-0" style="font-size: 0.8rem;">Preprint</a>
         </div>
@@ -69,16 +73,19 @@ permalink: /research-test/
   </div>
 
   <div class="col">
-    <div class="card h-100 shadow-sm border-0 hover-card">
+    <div class="card h-100 shadow-sm border-0 hover-card position-relative">
       <img src="{{ site.baseurl }}/assets/images/gauss_grid_wide.png" class="card-img-top research-img" alt="Coreset Selection">
-      <div class="card-body d-flex flex-column position-relative">
+      <div class="card-body d-flex flex-column">
+        
         <a href="#" data-bs-toggle="modal" data-bs-target="#modalCoreset" class="stretched-link text-decoration-none">
           <h5 class="card-title text-dark">Coreset Selection</h5>
         </a>
+        
         <h6 class="card-subtitle mb-2 text-muted">Kokot & Luedtke (2025)</h6>
         <p class="card-text small text-secondary">
           A framework for selecting coresets with respect to arbitrary losses, including the Sinkhorn divergence. Also covers targeted sampling for fine-tuning and batch selection.
         </p>
+        
         <div class="mt-auto card-footer-actions pt-3 border-top">
            <a href="https://arxiv.org/pdf/2504.20194" target="_blank" class="btn btn-sm btn-outline-primary py-0" style="font-size: 0.8rem;">PDF</a>
         </div>
@@ -87,16 +94,19 @@ permalink: /research-test/
   </div>
 
   <div class="col">
-    <div class="card h-100 shadow-sm border-0 hover-card">
+    <div class="card h-100 shadow-sm border-0 hover-card position-relative">
       <img src="{{ site.baseurl }}/assets/images/mnist_scatter_categorical.png" class="card-img-top research-img" alt="Entropic OT">
-      <div class="card-body d-flex flex-column position-relative">
+      <div class="card-body d-flex flex-column">
+        
         <a href="#" data-bs-toggle="modal" data-bs-target="#modalEOT" class="stretched-link text-decoration-none">
           <h5 class="card-title text-dark">Entropic Optimal Transport</h5>
         </a>
+        
         <h6 class="card-subtitle mb-2 text-muted">Theory & Limits</h6>
         <p class="card-text small text-secondary">
           Refining the analysis of the Sinkhorn divergence via Hadamard differentiability and deriving limits for self-EOT, establishing connections to spectral clustering.
         </p>
+        
         <div class="mt-auto card-footer-actions pt-3 border-top">
            <span class="badge bg-light text-dark border">In Preparation</span>
         </div>
@@ -105,16 +115,19 @@ permalink: /research-test/
   </div>
 
   <div class="col">
-    <div class="card h-100 shadow-sm border-0 hover-card">
+    <div class="card h-100 shadow-sm border-0 hover-card position-relative">
       <img src="{{ site.baseurl }}/assets/images/sasaki.png" class="card-img-top research-img" alt="Spectral Embeddings">
-      <div class="card-body d-flex flex-column position-relative">
+      <div class="card-body d-flex flex-column">
+        
         <a href="#" data-bs-toggle="modal" data-bs-target="#modalSpectral" class="stretched-link text-decoration-none">
           <h5 class="card-title text-dark">Geometrically Structured Data</h5>
         </a>
+        
         <h6 class="card-subtitle mb-2 text-muted">Kokot, Murad, & Meila (2025)</h6>
         <p class="card-text small text-secondary">
           Rigorous analysis of spectral embeddings on noisy manifolds. Using the Sasaki metric, we show these embeddings detect structure beyond strict dimensionality.
         </p>
+        
         <div class="mt-auto card-footer-actions pt-3 border-top">
            <a href="{{ site.baseurl }}/assets/Documents/Noisy_Lap_v4.pdf" target="_blank" class="btn btn-sm btn-outline-primary py-0" style="font-size: 0.8rem;">Preprint</a>
         </div>
