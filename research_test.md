@@ -69,7 +69,7 @@ permalink: /research/
           <h5 class="card-title text-dark">Local EGOP Learning</h5>
         </a>
         
-        <h6 class="card-subtitle mb-2 text-muted">Kokot et al. (2025) · <span class="text-primary">Submitted to AISTATS</span></h6>
+        <h6 class="card-subtitle mb-2 text-muted">Kokot et al. (2025) · <span class="text-primary">Submitted to ICML</span></h6>
         
         <p class="card-text small text-secondary">
           A geometric model for structured data via the supervised noisy manifold hypothesis. We develop a method to capture the adaptivity deep networks achieve when the target function exhibits local low-dimensionaltity.
@@ -268,7 +268,7 @@ permalink: /research/
     <li class="mb-3">
        <strong>Alex Kokot</strong>, et al. (2026).
        <a href="https://arxiv.org/abs/2601.07061" target="_blank"><em>Local EGOP for Continuous Index Learning</em></a>.
-       arXiv:2601.07061. Submitted to <em>AISTATS</em>.
+       arXiv:2601.07061. Submitted to <em>ICML</em>.
     </li>
     <li class="mb-3">
       <strong>Alex Kokot</strong>, Alex Luedtke (2025).
