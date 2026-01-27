@@ -16,7 +16,7 @@ permalink: /volunteer/
             <h5 class="mb-0 fw-bold text-dark">Referee Service</h5>
           </div>
           <p class="mb-0 text-muted">
-            Journal of Machine Learning Research (JMLR), AISTATS, Patterns
+            Journal of Machine Learning Research (JMLR), ICML, Patterns
           </p>
         </div>
       </div>
