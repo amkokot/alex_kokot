@@ -106,17 +106,17 @@ permalink: /research/
 
   <div class="col">
     <div class="card h-100 shadow-sm border-0 hover-card position-relative">
-      <img src="{{ site.baseurl }}/assets/images/mnist_scatter_categorical.png" class="card-img-top research-img" alt="Entropic OT">
+      <img src="{{ site.baseurl }}/assets/images/astronaut_coreset.png" class="card-img-top research-img" alt="Entropic OT">
       <div class="card-body d-flex flex-column">
         
         <a href="#" data-bs-toggle="modal" data-bs-target="#modalEOT" class="stretched-link text-decoration-none">
           <h5 class="card-title text-dark">Entropic Optimal Transport</h5>
         </a>
         
-        <h6 class="card-subtitle mb-2 text-muted">Kokot · <span class="text-warning text-dark">To be Submitted to COLT</span></h6>
+        <h6 class="card-subtitle mb-2 text-muted">Kokot · <span class="text-warning text-dark">To be Submitted to SIMODS</span></h6>
         
         <p class="card-text small text-secondary">
-          Refining the analysis of the Sinkhorn divergence via Hadamard differentiability and deriving limits for self-EOT, establishing connections to spectral clustering.
+          Refining the analysis of the Sinkhorn divergence via Hadamard differentiability and deriving limits for self-EOT, establishing connections to classical estimators in density and score estimation.
         </p>
         
         <div class="mt-auto card-footer-actions pt-3 border-top">
