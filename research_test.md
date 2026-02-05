@@ -76,7 +76,7 @@ permalink: /research/
         </p>
         
         <div class="mt-auto card-footer-actions pt-3 border-top">
-           <a href="{{ site.baseurl }}/assets/Documents/EGOP_flow_v2.pdf" target="_blank" class="btn btn-sm btn-outline-primary py-0" style="font-size: 0.8rem;">PDF</a>
+           <a href="https://arxiv.org/pdf/2601.07061" target="_blank" class="btn btn-sm btn-outline-primary py-0" style="font-size: 0.8rem;">PDF</a>
         </div>
       </div>
     </div>
@@ -254,7 +254,7 @@ permalink: /research/
     <li class="mb-3">
       <strong>Alex Kokot</strong>, Alex Luedtke, Marina Meila (2026).
       <em>Diffusion Maps are Entropic Self-Transport: Limits and Applications as ε→0</em>.
-      To be submitted to <em>COLT</em>.
+      To be submitted to <em>SIMODS</em>.
     </li>
   </ul>
 
